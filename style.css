@@ -6,17 +6,19 @@ body{
 
 .card{
       margin: auto;
-      width: 350px;
-      height: 600px;
+      width: 300px;
+      height: 530px;
       background-color: hsl(216, 50%, 16%);
       padding: 20px;
-      border-radius: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 10px 10px 20px hsl(213, 33%, 5%);
 }
 
 #main-img{
-     width: 350px;  
-     height: 340px;
-     border-radius: 20px;
+     width: 300px;  
+     height: 270px;
+     border-radius: 10px;
 }
 
 .content{
@@ -25,6 +27,7 @@ body{
 }
 .content p{
 color:  hsl(215, 51%, 70%);
+padding-right: 20px;
 }
 
 .deadline{
@@ -38,14 +41,55 @@ color:  hsl(215, 51%, 70%);
     display: flex;
     text-align: center;
     color:  hsl(178, 100%, 50%);
+    align-items: center;
+    gap: 10px;
 }
 #etherium{
-    padding-right: 10px;
+
     height: 1rem;
-   padding-top: 20px;
+  
     
 }
 .clock{
     display: flex;
+    gap:10px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+}
+.clock img{
    
+    height: 1rem;
+   
+   text-align: center;
+}
+
+.creation{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(140, 140, 140);
+    
+    text-align: center;
+    align-items: center;
+    padding-right: 90px;
+    color:hsl(215, 51%, 70%);
+    
+}
+
+.creation img{
+height: 2rem;
+border: 2px solid wheat;
+border-radius: 50%;
+}
+.creation img h5{
+margin-top: 30px;
+}
+
+#name{
+    color: white;
+}
+
+.attribution{
+    margin-top: 30px;
+    color: white;
 }
