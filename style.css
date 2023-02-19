@@ -1,0 +1,15 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+      margin: auto;
+      width: 400px;
+      height: 600px;
+      background-color: hsl(216, 50%, 16%);
+      padding: 20px;
+}
+
+#main-img{
+     width: 400px;  
+}
